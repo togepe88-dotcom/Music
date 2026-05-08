@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    flex-direction: column;
+}
+body{
+    background-image: url('images.jpeg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+button{
+    background-color: green;
+
+    color: white;
+
+    border: none;
+
+    padding: 15px 30px;
+
+    border-radius: 30px;
+
+    font-size: 18px;
+    
+    transition-delay: 15px;
+    
+    button:hover
+}
